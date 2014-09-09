@@ -1,4 +1,14 @@
 {{!< default}}
-{{#foreach posts}}
 
+{{#foreach posts}}
+{{date format='dddd DD MMM YYYY'}}
+{{title}}
+{{content words="100"}}
+{{#if tags}}
+Tags: {{tags seperator=" | "}}
 {{/foreach}}
+
+{{#if pagination}}
+{{{pagination}}}
+{{/if}}
+
