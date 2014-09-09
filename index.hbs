@@ -1,27 +1,27 @@
 {{!< default}}
 {{> header}}
-<main class="main_re" role="main">
+<main class="main" role="main">
 
 {{#foreach posts}}
-<article class="article_re" role="article" itemscope itemtype="http://schema.org/Article">
+<article class="article" role="article" itemscope itemtype="http://schema.org/Article">
 
-<header class="postheader_re">
-<time class="date_re" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">
-	<h1 class="posttitle_re" itemprop="headline" >{{title}}</h1>
+<header class="postheader">
+<time class="date" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">
+	<h1 class="posttitle" itemprop="headline" >{{title}}</h1>
 </header>
 
 <div class="postcontent" itemprop="articlebody">
 	{{content}}
 </div>
 {{#if tags}}
-<div class="posttags_re">
+<div class="posttags">
 	Tags: {{tags separator=" | "}}
 </div>	
 {{/if}}
 </article>
 {{/foreach}}
 	{{#if pagination}}
-	<div class="pageination_re">
+	<div class="pageination">
 	{{{pagination}}}
 	</div>
 {{/if}}

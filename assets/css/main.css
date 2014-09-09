@@ -1,4 +1,38 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\000031}}
 body {
-  background: gray;
-  color: #323232; }
+  background: white;
+  color: #323232;
+  font-family: arial, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\000037}}
+.main-cover {
+  width: 100%;
+  height: 300px;
+  background: no-repeat center center;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000313}}
+.logo {
+  margin: auto;
+  width: 111px;
+  height: 111px;
+  padding-top: 89px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000321}}
+.blogtitle, .blogdescription {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000323}}
+  .blogtitle a, .blogdescription a {
+    color: white;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000326}}
+    .blogtitle a:hover, .blogdescription a:hover {
+      olor: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000328}}
+    .blogtitle a:visited, .blogdescription a:visited {
+      color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000331}}
+.blogdescription {
+  color: white;
+  line-height: 2; }
