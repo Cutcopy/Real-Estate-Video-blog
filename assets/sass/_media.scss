@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Media Queries - Smaller than 1600px
+   ========================================================================== */
+
+@media screen and (max-width: 1600px) {
+ .blogtitle { 
+  font-size: 3em;
+ }
+}
+
+
+@media screen and (max-width: 500px) {
+  .blogtitle {
+    font-size: 1.5em;
+  }
+}
+  .logo {
+   display: inline-table;
+   vertical-align: middle;
+  }
+
+/* ==========================================================================
+    Media Queries - Smaller than 900px
+   ========================================================================== */
+
+@media screen and (max-width: 900px) {
+  .blogtitle {
+    font-size: 2em;
+    letter-spacing: -1px;
+  }
+}
+
+/* ==========================================================================
+    Media Queries - Smaller than 500px
+   ========================================================================== */
+
+
+
+

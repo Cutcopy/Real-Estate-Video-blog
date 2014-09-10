@@ -1,11 +1,11 @@
 <div role='banner' class="header">
 <div class="main-cover {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
-<div class="logo">{{#if @blog.logo}}<a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}</div>
 <h1 class="blogtitle">
 <a title="{{@blog.title}}" href='{{@blog.url}}'>
 {{{@blog.title}}}
 </a>
 </h1>
+<div class="logo">{{#if @blog.logo}}<a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}</div>
 <div class="blogdescription">
 <span>{{@blog.description}}</span>
 </div>

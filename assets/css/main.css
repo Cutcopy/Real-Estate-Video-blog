@@ -1,38 +1,92 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\000031}}
 body {
   background: white;
   color: #323232;
   font-family: arial, sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\000037}}
+/* --- header styles --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\000039}}
 .main-cover {
   width: 100%;
   height: 300px;
   background: no-repeat center center;
   background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000319}}
+.blogtitle, .blogdescription {
+  text-align: center;
+  font-size: 3.2em;
+  padding-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000323}}
+  .blogtitle a, .blogdescription a {
+    color: white;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000327}}
+    .blogtitle a:hover, .blogdescription a:hover {
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000330}}
+    .blogtitle a:visited, .blogdescription a:visited {
+      color: white; }
+
+/* --- you'll want to mess with the demensions and padding on this guy --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000338}}
 .logo {
   margin: auto;
   width: 111px;
   height: 111px;
-  padding-top: 89px; }
+  padding-top: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000321}}
-.blogtitle, .blogdescription {
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000323}}
-  .blogtitle a, .blogdescription a {
-    color: white;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000326}}
-    .blogtitle a:hover, .blogdescription a:hover {
-      olor: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000328}}
-    .blogtitle a:visited, .blogdescription a:visited {
-      color: white; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/main\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000345}}
 .blogdescription {
+  font-size: 19px;
   color: white;
-  line-height: 2; }
+  background-color: #323232;
+  text-shadow: 6px 6px 10px #333333;
+  line-height: .2; }
+
+/* --- media sizes --- */
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000357}}
+  .blogtitle, .blogdescription {
+    font-size: 3em; } }
+@media screen and (max-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000363}}
+  .blogtitle, .blogdescription {
+    font-size: 2em;
+    letter-spacing: -1px; } }
+@media screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000370}}
+  .blogtitle, .blogdescription {
+    font-size: 1.5em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_header\.scss}line{font-family:\0000374}}
+.logo {
+  display: inline-table;
+  vertical-align: middle; }
+
+/* ==========================================================================
+   Media Queries - Smaller than 1600px
+   ========================================================================== */
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_media\.scss}line{font-family:\000036}}
+  .blogtitle, .blogdescription {
+    font-size: 3em; } }
+@media screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_media\.scss}line{font-family:\0000313}}
+  .blogtitle, .blogdescription {
+    font-size: 1.5em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_media\.scss}line{font-family:\0000317}}
+.logo {
+  display: inline-table;
+  vertical-align: middle; }
+
+/* ==========================================================================
+    Media Queries - Smaller than 900px
+   ========================================================================== */
+@media screen and (max-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Bryce\/Desktop\/ghost\%20\.5\/content\/themes\/Real-Estate-Video-blog\/assets\/sass\/_media\.scss}line{font-family:\0000327}}
+  .blogtitle, .blogdescription {
+    font-size: 2em;
+    letter-spacing: -1px; } }
+/* ==========================================================================
+    Media Queries - Smaller than 500px
+   ========================================================================== */
