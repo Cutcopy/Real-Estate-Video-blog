@@ -1,0 +1,28 @@
+$primary: #0025ff;
+$accent:  #3399ff;
+
+nav{
+	background-color: $primary; 
+	text-align: center;
+	height: 40px;
+	margin-top: 25px;
+ ul{ 
+ 	list-style-type: none;
+  li{
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	font-size: 19px;
+	display: inline;
+	padding: 9px 15px;
+	margin-right: 50px;
+	line-height: 40px;
+	&:hover{
+		background-color: $accent;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+  }
+ }
+}

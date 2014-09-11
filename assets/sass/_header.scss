@@ -1,8 +1,3 @@
-body {
-  background: white;
-  color: #323232;
-  font-family: arial, sans-serif;
-}
 
 /* --- header styles --- */
 
@@ -16,34 +11,44 @@ body {
 
 .blogtitle {
   text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3.2em;
+  text-shadow: 6px 6px 10px rgba(51, 51, 51, 1);
   padding-top: 5px;
+  margin: 0;
   a {
-    color: red;
+    color: white;
     text-decoration: none;
   
     &:hover {
-      color: red;
+      color: white;
     }
     &:visited {
-      color: red;
+      color: white;
     }
   }
 }
 
 /* --- you'll want to mess with the demensions and padding on this guy --- */
 
-.logo a img{
-  margin: auto;
-  width: 111px;
-  height: 111px;
-  padding-top: 10px;
+#logo{
+  margin: 0 auto;
+  width: 250px;
+  height: 168px;
+  a {
+   img{
+    width: 250px;
+    height: 168px;
+   }
+  }
 }
 
 .blogdescription {
   @extend .blogtitle;
+  padding-top: 15px;
+  color: white;
   font-size: 19px;
-  color: red;
   text-shadow: 6px 6px 10px rgba(51, 51, 51, 1);
   line-height: .2;
 }

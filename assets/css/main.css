@@ -1,8 +1,3 @@
-body {
-  background: white;
-  color: #323232;
-  font-family: arial, sans-serif; }
-
 /* --- header styles --- */
 .main-cover {
   width: 100%;
@@ -12,10 +7,14 @@ body {
 
 .blogtitle, .blogdescription {
   text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3.2em;
-  padding-top: 5px; }
+  text-shadow: 6px 6px 10px #333333;
+  padding-top: 5px;
+  margin: 0; }
   .blogtitle a, .blogdescription a {
-    color: red;
+    color: white;
     text-decoration: none; }
     .blogtitle a:hover, .blogdescription a:hover {
       color: white; }
@@ -23,18 +22,58 @@ body {
       color: white; }
 
 /* --- you'll want to mess with the demensions and padding on this guy --- */
-.logo {
-  margin: auto;
-  width: 111px;
-  height: 111px;
-  padding-top: 10px; }
+#logo {
+  margin: 0 auto;
+  width: 250px;
+  height: 168px; }
+  #logo a img {
+    width: 250px;
+    height: 168px; }
 
 .blogdescription {
-  font-size: 19px;
+  padding-top: 15px;
   color: white;
-  background-color: #323232;
+  font-size: 19px;
   text-shadow: 6px 6px 10px #333333;
   line-height: .2; }
+
+body {
+  background: #323232;
+  color: #323232;
+  font-family: arial, sans-serif;
+  margin: 0; }
+
+nav {
+  background-color: #0025ff;
+  text-align: center;
+  height: 40px;
+  margin-top: 25px; }
+  nav ul {
+    list-style-type: none; }
+    nav ul li {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 19px;
+      display: inline;
+      padding: 9px 15px;
+      margin-right: 50px;
+      line-height: 40px; }
+      nav ul li:hover {
+        background-color: #3399ff; }
+      nav ul li a {
+        text-decoration: none;
+        color: white; }
+
+.main {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto; }
+
+.article {
+  padding: 15px; }
+
+.postheader {
+  color: red; }
 
 /* ==========================================================================
    Media Queries - Smaller than 1600px
@@ -45,10 +84,6 @@ body {
 @media screen and (max-width: 500px) {
   .blogtitle, .blogdescription {
     font-size: 1.5em; } }
-.logo {
-  display: inline-table;
-  vertical-align: middle; }
-
 /* ==========================================================================
     Media Queries - Smaller than 900px
    ========================================================================== */
