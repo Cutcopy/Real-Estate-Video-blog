@@ -14,28 +14,26 @@ body {
 }
 
 
-
-
 .blogtitle {
   text-align: center;
   font-size: 3.2em;
   padding-top: 5px;
   a {
-    color: white;
+    color: red;
     text-decoration: none;
   
     &:hover {
-      color: white;
+      color: red;
     }
     &:visited {
-      color: white;
+      color: red;
     }
   }
 }
 
 /* --- you'll want to mess with the demensions and padding on this guy --- */
 
-.logo {
+.logo a img{
   margin: auto;
   width: 111px;
   height: 111px;
@@ -45,34 +43,9 @@ body {
 .blogdescription {
   @extend .blogtitle;
   font-size: 19px;
-  color: white;
-  background-color: #323232;
+  color: red;
   text-shadow: 6px 6px 10px rgba(51, 51, 51, 1);
   line-height: .2;
 }
 
-/* --- media sizes --- */
-
-@media screen and (max-width: 1600px) {
- .blogtitle { 
-  font-size: 3em;
- }
-}
-
-@media screen and (max-width: 900px) {
-  .blogtitle {
-    font-size: 2em;
-    letter-spacing: -1px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .blogtitle {
-    font-size: 1.5em;
-  }
-}
-  .logo {
-   display: inline-table;
-   vertical-align: middle;
-  }
 
