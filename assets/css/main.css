@@ -96,7 +96,8 @@ nav {
   padding: 15px; }
 
 .postheader {
-  color: red; }
+  text-align: center;
+  font-size: 2em; }
 
 /* ==========================================================================
    Media Queries - Smaller than 1600px
