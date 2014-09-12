@@ -1,9 +1,10 @@
-
+$primary: #0025ff;
+$accent:  #3399ff;
 /* --- header styles --- */
 
 .main-cover {
   width: 100%;
-  height: 300px;
+  height: 350px;
   background: no-repeat center center;
   background-size: cover;
 }
@@ -13,7 +14,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.2em;
+  font-size: 5em;
   text-shadow: 6px 6px 10px rgba(51, 51, 51, 1);
   padding-top: 5px;
   margin: 0;
@@ -33,13 +34,13 @@
 /* --- you'll want to mess with the demensions and padding on this guy --- */
 
 #logo{
-  margin: 0 auto;
-  width: 250px;
-  height: 168px;
+    margin: auto;
+     width:  13.157894736842105%;
+     height:  56%;
   a {
    img{
-    width: 250px;
-    height: 168px;
+    width: 100%;
+    height: 100%;
    }
   }
 }
@@ -48,9 +49,35 @@
   @extend .blogtitle;
   padding-top: 15px;
   color: white;
-  font-size: 19px;
+  font-size: 2em;
   text-shadow: 6px 6px 10px rgba(51, 51, 51, 1);
   line-height: .2;
+}
+.social-icons{
+  float: right;
+  list-style-type: none;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 5px;
+
+  li{
+   display: inline;
+   padding: 5px;
+   a{
+    color: white;
+    text-decoration: none;
+    .fa{
+      border-radius: 50%;  
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      background-color: $primary;
+      &:hover{
+        background-color: $accent;
+      } 
+    }
+   }
+  }
 }
 
 

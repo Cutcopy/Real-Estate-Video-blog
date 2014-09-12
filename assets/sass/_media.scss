@@ -4,16 +4,17 @@
 
 @media screen and (max-width: 1600px) {
  .blogtitle { 
-  font-size: 3em;
+  font-size: 4em;
+ }
+ .blogdescription{ 
+   font-size: 1.8em;
  }
 }
 
 
-@media screen and (max-width: 500px) {
-  .blogtitle {
-    font-size: 1.5em;
-  }
-}
+
+
+
 
 /* ==========================================================================
     Media Queries - Smaller than 900px
@@ -21,9 +22,12 @@
 
 @media screen and (max-width: 900px) {
   .blogtitle {
-    font-size: 2em;
+    font-size: 3em;
     letter-spacing: -1px;
   }
+  .blogdescription{ 
+    font-size: 1.5em;
+ }
 }
 
 /* ==========================================================================
@@ -31,5 +35,16 @@
    ========================================================================== */
 
 
+@media screen and (max-width: 500px) {
+  .blogtitle {
+    font-size: 2em;
+  }
+  .blogdescription {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  nav{
+    margin-top: 40px;
+  }
 
-
+}
