@@ -66,25 +66,27 @@ body {
   margin: 0; }
 
 nav {
-  background-color: #0025ff;
   text-align: center;
+  background-color: #0025ff;
   height: 40px;
-  margin-top: 51px; }
+  margin-top: 63px;
+  margin-left: 0px;
+  padding-left: 0px; }
   nav ul {
-    list-style-type: none; }
+    list-style-type: none;
+    padding-left: 0px; }
     nav ul li {
       text-transform: uppercase;
       font-weight: bold;
       font-size: 2em;
       display: inline;
-      padding: 9px 15px;
-      margin-right: 50px;
       line-height: 40px; }
-      nav ul li:hover {
-        background-color: #3399ff; }
       nav ul li a {
+        margin-left: 50px;
         text-decoration: none;
         color: white; }
+        nav ul li a:hover {
+          background-color: #3399ff; }
 
 .main {
   background-color: white;

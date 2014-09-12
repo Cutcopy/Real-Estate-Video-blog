@@ -2,26 +2,30 @@ $primary: #0025ff;
 $accent:  #3399ff;
 
 nav{
-	background-color: $primary; 
+
 	text-align: center;
+	background-color: $primary; 
 	height: 40px;
-	margin-top: 51px;
+	margin-top: 63px;
+	margin-left: 0px;
+	padding-left: 0px;
     ul{ 
  	 list-style-type: none;
+ 	 padding-left: 0px;
+
      li{
 	  	text-transform: uppercase;
 	  	font-weight: bold;
 	  	font-size: 2em;
 		display: inline;
-		padding: 9px 15px;
-		margin-right: 50px;
 		line-height: 40px;
-		&:hover{
-			background-color: $accent;
-		}
-		a{
+		a{ 
+			margin-left: 50px;
 			text-decoration: none;
 			color: white;
+			&:hover{
+			background-color: $accent;
+		    }
 	    }
       }
     }
